@@ -67,3 +67,10 @@ app.post("/logout", async (req, res) => {
 -   Link to existing project? -> n
 -   What’s your project’s name? -> Enter
 -   In which directory is your code located? -> Enter
+
+## Go to Vercel Your New Project Setting 
+- go to settings
+- go to Environment Veriabls
+- select import file
+- select your env file from your Local Storage
+- save

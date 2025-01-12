@@ -24,8 +24,8 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://career-portal-ph.web.app",
-      "https://career-portal-ph.firebaseapp.com",
+      "https://your website name url.web.app",
+      "https://your website name url .com",
     ],
     credentials: true,
   })

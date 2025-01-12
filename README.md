@@ -58,3 +58,12 @@ app.post("/logout", async (req, res) => {
     .clearCookie("token", { ...cookieOptions, maxAge: 0 })
     .send({ success: true });
 });
+
+## Deploy Command 
+
+- vercel --prod
+-   Set up and deploy -> y
+-   Which scope should contain your project? select Account-> Enter
+-   Link to existing project? -> n
+-   What’s your project’s name? -> Enter
+-   In which directory is your code located? -> Enter
